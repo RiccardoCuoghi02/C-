@@ -17,8 +17,8 @@ void stamp(){
 
     cout<<"-----------------------------------------"<<endl;
     string frase = "Ciao " + nome + ", hai " + to_string(eta) + " anni.";
-    cout<<"|"<< left << setw(10)<< " " 
-        << frase << right << setw(12) << " |"<<endl;
+    cout<<"| "<< left << setw(37) 
+        << frase << right << " |"<<endl;
 
     cout<<"-----------------------------------------"<<endl<<endl<<endl;
 
